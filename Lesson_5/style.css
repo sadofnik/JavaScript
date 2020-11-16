@@ -17,3 +17,24 @@ p {
     font-size: 16px;
     color: gray;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    width: auto;
+}
+
+td {
+    border: 1px solid #880303;
+    width: auto;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+#total_price {
+    font: 12pt/10pt sans-serif;
+    margin-top: 20px;
+}
