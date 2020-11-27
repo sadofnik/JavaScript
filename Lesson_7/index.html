@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Змейка</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Добавлен блок счёта сверху
+    в js строка 148, запуск из 145
+        Убрала границы поля, поменяв функцию getNextStepHeadPoint
+        строка 153, добавила доп проверки на выход из диапазона
+        и немного изменила canMakeStep строка 309
+    -->
+    <div id="scoreGame" class="score">Score: 0</div>
+    <div id="game-wrap">
+        <table id="game"></table>
+    </div>
+    <div id="menu">
+        <div id="playButton" class="menuButton">Старт</div>
+        <div id="newGameButton" class="menuButton">Новая игра</div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
